@@ -28,15 +28,18 @@ cat > "$file_path" << EOF
 ---
 title: $title
 author: jay
-date: "${current_date} ${current_time}"
+date: ${current_date} ${current_time}
 categories: [Blogging, Tutorial]
 tags: [writing]
 render_with_liquid: false
+toc: true
+description:
+
 ---
 
 ## Introduction
 
 EOF
 
-echo "create new post"
+echo "Created a new post"
 
